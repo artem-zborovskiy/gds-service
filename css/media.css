@@ -1,0 +1,127 @@
+@media (max-width: 1030px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .first_screen {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .invisible {
+        display: block;
+    }
+
+    .second_invisible {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 2% 2%;
+    }
+
+    .footer_first {
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    .phone {
+        margin: 10px auto;
+    }
+
+    .footer_first .phone:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .text_wrapper {
+        flex-direction: column;
+    }
+
+    .text_wrapper .btn {
+        margin: 20px 0;
+    }
+
+    .text_wrapper .paragraph {
+        text-align: center;
+        margin: 20px 0;
+    }
+}   
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .main_map {
+        width: 80%;
+    }
+
+    .main_heading {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 12px;
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+
+    .icons i {
+        font-size: 3rem;
+    }
+
+    .icons_block {
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .certificate_block img {
+        width: 35%;
+    }
+
+    #lightbox_img img {
+        max-width: 85vw;
+    }
+
+    .m_menu {
+        font-size: 23px;
+    }
+
+    .cards_wrapper {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .card:not(:last-of-type) {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .customers_block {
+        flex-direction: column;
+    }
+
+    .customer {
+        margin-bottom: 30px;
+    }
+
+    .equipment_heading {
+        font-size: 15px;
+    }
+}
